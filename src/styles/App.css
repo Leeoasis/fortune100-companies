@@ -1,0 +1,86 @@
+.home-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.intro {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.year {
+  font-size: 18px;
+  display: block;
+}
+
+.filter {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.info-container {
+  flex: 1;
+}
+
+.title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.revenue {
+  font-size: 16px
+}
+
+.icon-left-arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url(https://fontawesome.com/v4/icon/arrow-left);
+  background-size: 100%;
+  margin-right: 5px;
+}
+
