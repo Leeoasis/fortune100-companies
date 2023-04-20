@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(faAngleLeft);
 
-
 const Navbar = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -23,11 +22,11 @@ const Navbar = () => {
   };
 
   return (
-    <header>
+    <header className="nav-header">
       <nav>
         <ul>
           <NavLink to="/" className={`routing ${activeIndex === 0 ? 'activated' : ''}`} onClick={(e) => handleClick(0, e)}>
-          <FontAwesomeIcon icon="angle-left" size="2x" color="#333" />
+            <FontAwesomeIcon className="font-icon" icon="angle-left" size="1.5x" color="#fff" />
           </NavLink>
         </ul>
       </nav>

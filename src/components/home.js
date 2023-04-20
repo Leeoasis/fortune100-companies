@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCompanies } from '../redux/companySlice';
+import '../styles/home.css';
 
 const MyHome = () => {
   const [filterText, setFilterText] = useState('');
@@ -21,11 +24,12 @@ const MyHome = () => {
   };
 
   return (
-    <div className="home-container">
+    <div className="homeContainer">
       <div className="intro">
-        <div className="text-container">
-          <h1 className="title">
-            Fortune 100
+        <div className="text-cont">
+          <h1>
+            <span className="title">Fortune 100</span>
+            <br />
             <span className="year">Year 2009</span>
           </h1>
         </div>
@@ -39,7 +43,6 @@ const MyHome = () => {
         <div className="content">
           {companies.map((company) => (
             <NavLink to={`details/${company.name}`} className="list-item" key={company.id}>
-              <p className="icon"><i className="fa fa-arrow-right" /></p>
               <div className="info-container">
                 <p className="title">{company.name}</p>
                 <p className="revenue">
@@ -47,6 +50,7 @@ const MyHome = () => {
                   {company.revenue}
                   M
                 </p>
+                <p><FontAwesomeIcon icon={faArrowRight} className="arrow-right" /></p>
               </div>
             </NavLink>
           ))}

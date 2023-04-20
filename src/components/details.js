@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import Navbar from './Navbar';
+import '../styles/Details.css';
 
 const MyDetails = () => {
   const [company, setCompany] = useState([]);
@@ -32,7 +33,7 @@ const MyDetails = () => {
         company.map((company) => (
           <div key={company.id} className="details-content">
             <div className="company-name">
-              <h2>{company.name}</h2>
+              <h2 className="details-header">{company.name}</h2>
               <p className="box">
                 Fortune 100..
                 <span>{company.name}</span>
