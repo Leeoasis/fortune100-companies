@@ -62,9 +62,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://fortune500.onrender.com)
 
-- [Live Video Demo]()
+- [Live Video Demo](https://www.loom.com/share/b41d3faaa6fd4ce984e4d1bd6d337edd)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
