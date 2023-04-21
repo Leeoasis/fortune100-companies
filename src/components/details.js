@@ -13,12 +13,8 @@ const MyDetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true);
-      try {
-        const response = await axios.get(`https://588fc30f7458d612002df0d2.mockapi.io/api/v1/companies?filter=${companyName}`);
-        setCompany(response.data);
-      } catch (error) {
-        console.error(error);
-      }
+      const response = await axios.get(`https://588fc30f7458d612002df0d2.mockapi.io/api/v1/companies?filter=${companyName}`);
+      setCompany(response.data);
       setIsLoading(false);
     };
     fetchData();

@@ -1,8 +1,6 @@
 .details-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100%;
 }
 
@@ -62,8 +60,19 @@ p {
   background-color: rgba(7, 119, 128, 0.76);
 }
 
-.font-icon {
-  margin-left: -10rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+@media (min-width: 768px) {
+  .details-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .details-content {
+    background-color: rgba(0, 15, 1, 0.5); /* set the color and opacity of the overlay */
+    margin-bottom: 20px;
+    width: 100vw;
+    max-width: none;
+    height: 1500px;
+  }
 }

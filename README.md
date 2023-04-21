@@ -175,8 +175,10 @@ If you like this project then don't forget to give a star ⭐ on this repository
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Microverse](https://www.microverse.org/), for the original [design guidelines](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
-
+- Microverse teamamets
+- Mentors
+- Design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->

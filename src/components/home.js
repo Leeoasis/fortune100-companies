@@ -5,6 +5,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCompanies } from '../redux/companySlice';
 import '../styles/home.css';
+import Navbar from './Navbar';
 
 const MyHome = () => {
   const [filterText, setFilterText] = useState('');
@@ -25,7 +26,9 @@ const MyHome = () => {
 
   return (
     <div className="homeContainer">
+      <Navbar />
       <div className="intro">
+
         <div className="text-cont">
           <h1>
             <span className="title">Fortune 100</span>

@@ -1,0 +1,26 @@
+.my-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-year {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+    gap: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+  
+  .nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3px;
+    align-items: center;
+    margin-right: 5px;
+  }
