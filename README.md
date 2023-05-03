@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Invest_Data_App] <a name="about-project"></a>
+# 📖 [Fortune-100-Companies] <a name="about-project"></a>
 
-**[Invest_Data_App]** This is a mobile web application that renders on its homepage the list of top 100 US companies in terms of profit made in 2009. And you can search any company by its name. The configuration is offered in the modal feature. Each company can be clicked and we can see its profile, for example, its revenue, profit and ranking, etc.
+**[Fortune-100-Companies]** This is a mobile web application that renders on its homepage the list of top 100 US companies in terms of profit made in 2009. And you can search any company by its name. The configuration is offered in the modal feature. Each company can be clicked and we can see its profile, for example, its revenue, profit and ranking, etc.
 
 ## 🛠 Built With <a name="built-with"></a>
 
